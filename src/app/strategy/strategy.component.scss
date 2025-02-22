@@ -1,0 +1,8 @@
+.custom-icon {
+  font-size: 2rem; // الحجم الأساسي للأيقونة
+
+  // Media Query للموبايل
+  @media (max-width: 640px) {
+    font-size: 16px; // حجم أصغر للأيقونة على الموبايل
+  }
+}

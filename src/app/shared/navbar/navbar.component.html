@@ -1,0 +1,58 @@
+
+  <button (click)="toggleDropdown()" class="m-4 relative "  #menuButton >
+    <div class="w-[50px] h-[50px] border-[2px] rounded-full justify-center items-center flex border-[#85754e]">
+      <i class="fa-solid fa-ellipsis-vertical fa-2xl" style="color: #85754e;"></i>
+    </div>
+  </button>
+
+@if (isDropdownOpen) {
+  <div  class=" absolute   z-50 left-0  w-64 custom-color text-white rounded-lg shadow-lg mx-4" #dropdownMenu >
+    <div class="absolute top-[-8px] left-4 w-0 h-0 border-l-8 border-r-8 border-b-8 border-transparent border-b-[#0000006f]"></div>
+
+    <a routerLink="/home" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
+      <div class="font-bold w-full text-right pr-2">الرئيسية</div>
+      <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
+        <i class="fa-solid fa-house mx-2"></i>
+      </div>
+    </a>
+
+    <a routerLink="/strategy" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
+      <div class="font-bold w-full text-right pr-2">استراتجياتنا</div>
+      <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
+        <i class="fa-solid fa-chart-line"></i>
+      </div>
+    </a>
+
+    <a routerLink="/aboutus" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
+      <div class="font-bold w-full text-right pr-2">عن وكن</div>
+      <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
+        <i class="fa-solid fa-info-circle mx-2"></i>
+      </div>
+    </a>
+
+    <a routerLink="/contactus" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
+      <div class="font-bold w-full text-right pr-2">اتصل بنا</div>
+      <div class="font-bold w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
+        <i class="fa-solid fa-phone mx-2"></i>
+      </div>
+    </a>
+
+    <a routerLink="/services" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
+      <div class="font-bold w-full text-right pr-2">خدماتنا</div>
+      <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
+        <i class="fa-solid fa-cogs mx-2"></i>
+      </div>
+    </a>
+
+    <a  class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
+
+      <div class="font-bold w-full text-right pr-2">تغيير اللغة</div>
+      <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
+        <i class="fa-solid fa-globe mx-2"></i>
+      </div>
+
+    </a>
+
+  </div>
+}
+
