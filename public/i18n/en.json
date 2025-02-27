@@ -1,152 +1,125 @@
 {
-"navbar": {
-  "home": "Home",
-  "services": "Our Services",
-  "strategy": "Our Strategy",
-  "projects": "Our Projects",
-  "aboutUs": "About Us",
-  "contact": "Contact Us",
-  "changelang":" Change Language"
-},
-
-    "home": {
-      "hero": {
-        "title": "Wakan for Investment",
-        "subtitle": "Leading company providing suitable solutions for all business segments",
-        "partnership": "Wakan collaborates with the Kafalah program for SMEs"
-      },
-      "vision": {
-        "title": "We aspire to Vision ",
-        "subtitle": "With full determination and will"
-      },
-      "services": "Our Services",
-      "strategy": "Our Strategy",
-      "projects": "Our Projects",
-      "contact": {
-        "title": "Contact Us",
-        "send": "Send"
-      },
-      "sister_companies": {
-        "title": "Sister Companies  ",
-        "instruction": "Click on the logo to download the sister company's profile",
-        "button": "Download Profile"
-      }
+  "navbar": {
+    "home": "Home",
+    "services": "Our Services",
+    "strategy": "Our Strategy",
+    "projects": "Our Projects",
+    "aboutUs": "About Us",
+    "contact": "Contact Us",
+    "changelang": " Change Language"
+  },
+  "home": {
+    "hero": {
+      "title": "Wakan for Investment",
+      "subtitle": "Leading company providing suitable solutions for all business segments",
+      "partnership": "Wakan collaborates with the Kafalah program for SMEs"
     },
-
-
-
-"strategyPage": {
-  "scroll_down": "Scroll Down",
-  "title": "Our Strategy",
-  "points": {
-    "innovation": "Innovation in delivering new and creative services, exploring opportunities and projects for more success.",
-    "team": "Working with a highly qualified and experienced technical team.",
-    "exceed_expectations": "Providing services that exceed customer expectations."
-  }
-},
-
-
-"aboutUsPage": {
-  "scroll_down": "Scroll Down",
-  "title": "Wakan Investment",
-  "intro": "A leading company providing suitable solutions for all business sectors",
-  "partnership": "Wakan collaborates with the Kafalah program for SMEs",
-  "vision": {
-    "title": "We aspire to Vision ",
-    "subtitle": "With full determination and will"
+    "vision": {
+      "title": "We aspire to Vision ",
+      "subtitle": "With full determination and will"
+    },
+    "services": "Our Services",
+    "strategy": "Our Strategy",
+    "projects": "Our Projects",
+    "contact": {
+      "title": "Contact Us",
+      "send": "Send"
+    },
+    "sister_companies": {
+      "title": "Sister Companies  ",
+      "instruction": "Click on the logo to download the sister company's profile",
+      "button": "Download Profile"
+    }
   },
-  "sister_companies": "Sister Companies of Wakan",
-  "experience": "We have over a hundred years of experience",
-   "aboutUsPage": {
-  "summary": "Wakan's team consists of consultants with distinguished advisory expertise, maintaining long-term client relationships based on professionalism and trust. We embrace flexibility and adapt to local and international changes, offering the best financial solutions with favorable terms and low-profit margins. Wakan is home to experts with specialized and accumulated experience."
+  "strategyPage": {
+    "scroll_down": "Scroll Down",
+    "title": "Our Strategy",
+    "points": {
+      "innovation": "Innovation in delivering new and creative services, exploring opportunities and projects for more success.",
+      "team": "Working with a highly qualified and experienced technical team.",
+      "exceed_expectations": "Providing services that exceed customer expectations."
+    }
   },
-
-  "download_profile": "Download Company Profile"
-},
-
-
-
-"contactUsPage": {
-  "heading": "Contact Us",
-  "scrollDown": "Scroll Down"
-},
-"servicesPage": {
-  "scrollDown": "Scroll Down",
-  "services": "Our Services",
-  "restructuring": "Restructuring and Organization",
-  "projectFinancing": "Project Financing",
-  "mergersAcquisitions": "Mergers and Acquisitions",
-  "feasibilityStudies": "Economic Feasibility Studies",
-
-  "restructuringSer": {
-  "title": "Restructuring and Organization",
-  "description": "We provide innovative solutions for financial and administrative restructuring through the following steps",
-  "steps": {
-    "reasons": "Agreeing on the reasons that led to the change",
-    "alternatives": "Studying the available alternatives for restructuring",
-    "documents": "Preparing documents and studies",
-    "supervision": "Supervision, follow-up, and coordination",
-    "execution": "Initiating the process to achieve the desired results professionally",
-    "analysis": "Analyzing results and providing comprehensive reports on strengths, weaknesses, opportunities, and challenges",
-    "risks": "Assessing potential risks and finding solutions to mitigate them",
-    "financing": "Setting financing alternatives and expected returns for each"
+  "aboutUsPage": {
+    "scroll_down": "Scroll Down",
+    "title": "Wakan Investment",
+    "intro": "A leading company providing suitable solutions for all business sectors",
+    "partnership": "Wakan collaborates with the Kafalah program for SMEs",
+    "vision": {
+      "title": "We aspire to Vision ",
+      "subtitle": "With full determination and will"
+    },
+    "sister_companies": "Sister Companies of Wakan",
+    "experience": "We have over a hundred years of experience",
+    "aboutUsPage": {
+      "summary": "Wakan's team consists of consultants with distinguished advisory expertise, maintaining long-term client relationships based on professionalism and trust. We embrace flexibility and adapt to local and international changes, offering the best financial solutions with favorable terms and low-profit margins. Wakan is home to experts with specialized and accumulated experience."
+    },
+    "download_profile": "Download Company Profile"
   },
-
-  "projectFinancing": {
-  "title": "Project Financing",
-  "description": "Identifying suitable financial needs for establishing or growing the project, selecting the best financing sources with the lowest investment costs, and aligning funding with the nature of the project to ensure successful financing.",
-  "services": "Financing services include project evaluation, feasibility studies, and recommendations on appropriate financing."
-},
-
-"mergersAcquisitions": {
-  "title": "Mergers and Acquisitions",
-  "description": "We assist investors and decision-makers in prioritizing and meeting their needs in mergers and acquisitions through:",
-  "steps": {
-    "strategy": "Developing and implementing a mergers and acquisitions strategy",
-    "documents": "Preparing documents and studies",
-    "supervision": "Supervision, follow-up, and coordination",
-    "legalAdvice": "Providing valuable legal advice",
-    "execution": "Completing the process professionally to achieve the desired results"
-  }
-},
-"feasibilityStudies": {
-  "title": "Feasibility Studies",
-  "description": "We ensure accuracy when preparing feasibility studies through:",
-  "steps": {
-    "marketStudies": "Supervising the preparation of market and technical studies",
-    "projectAnalysis": "Analyzing the project from all aspects, including strengths, weaknesses, opportunities, and challenges",
-    "riskAssessment": "Assessing project risks and finding ways to mitigate them",
-    "financingAlternatives": "Providing financing alternatives and expected returns for each option",
-    "financialIndicators": "Presenting feasibility study results, financial indicators, and sensitivity analysis"
+  "contactUsPage": {
+    "heading": "Contact Us",
+    "scrollDown": "Scroll Down"
+  },
+  "servicesPage": {
+    "scrollDown": "Scroll Down",
+    "services": "Our Services",
+    "restructuring": "Restructuring and Organization",
+    "projectFinancing": "Project Financing",
+    "mergersAcquisitions": "Mergers and Acquisitions",
+    "feasibilityStudies": "Economic Feasibility Studies",
+    "restructuringSer": {
+      "title": "Restructuring and Organization",
+      "description": "We provide innovative solutions for financial and administrative restructuring through the following steps",
+      "steps": {
+        "reasons": "Agreeing on the reasons that led to the change",
+        "alternatives": "Studying the available alternatives for restructuring",
+        "documents": "Preparing documents and studies",
+        "supervision": "Supervision, follow-up, and coordination",
+        "execution": "Initiating the process to achieve the desired results professionally",
+        "analysis": "Analyzing results and providing comprehensive reports on strengths, weaknesses, opportunities, and challenges",
+        "risks": "Assessing potential risks and finding solutions to mitigate them",
+        "financing": "Setting financing alternatives and expected returns for each"
+      },
+      "projectFinancing": {
+        "title": "Project Financing",
+        "description": "Identifying suitable financial needs for establishing or growing the project, selecting the best financing sources with the lowest investment costs, and aligning funding with the nature of the project to ensure successful financing.",
+        "services": "Financing services include project evaluation, feasibility studies, and recommendations on appropriate financing."
+      },
+      "mergersAcquisitions": {
+        "title": "Mergers and Acquisitions",
+        "description": "We assist investors and decision-makers in prioritizing and meeting their needs in mergers and acquisitions through:",
+        "steps": {
+          "strategy": "Developing and implementing a mergers and acquisitions strategy",
+          "documents": "Preparing documents and studies",
+          "supervision": "Supervision, follow-up, and coordination",
+          "legalAdvice": "Providing valuable legal advice",
+          "execution": "Completing the process professionally to achieve the desired results"
+        }
+      },
+      "feasibilityStudies": {
+        "title": "Feasibility Studies",
+        "description": "We ensure accuracy when preparing feasibility studies through:",
+        "steps": {
+          "marketStudies": "Supervising the preparation of market and technical studies",
+          "projectAnalysis": "Analyzing the project from all aspects, including strengths, weaknesses, opportunities, and challenges",
+          "riskAssessment": "Assessing project risks and finding ways to mitigate them",
+          "financingAlternatives": "Providing financing alternatives and expected returns for each option",
+          "financialIndicators": "Presenting feasibility study results, financial indicators, and sensitivity analysis"
+        }
+      }
+    }
+  },
+  "footer": {
+    "about": "Wakan for Investment",
+    "contact": "Contact Us",
+    "profile": "Download Profile",
+    "location": "Click on Google Map to reach us"
+  },
+  "form": {
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Your Phone Number",
+    "message": "Your Message",
+    "send": "Send"
   }
 }
-
-
-
-}
-
-},
-
-
-
-
-    "footer": {
-  "about": "Wakan for Investment",
-  "contact": "Contact Us",
-  "profile": "Download Profile",
-  "location": "Click on Google Map to reach us"
-},
-
-
-"form": {
-  "name": "Your Name",
-  "email": "Your Email",
-  "phone": "Your Phone Number",
-  "message": "Your Message",
-  "send": "Send"
-}
-
-
-  }
-
-
