@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-strategy',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './strategy.component.html',
   styleUrl: './strategy.component.scss'
 })

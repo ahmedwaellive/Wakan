@@ -1,14 +1,16 @@
 import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
-  imports: [RouterLink,RouterLinkActive],
+  imports: [RouterLink,RouterLinkActive,TranslateModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
   isDropdownOpen = false;
+  constructor(private translate: TranslateService) { }
 
   @ViewChild('dropdownMenu') dropdownMenu!: ElementRef;
   @ViewChild('menuButton') menuButton!: ElementRef;
@@ -28,4 +30,12 @@ export class NavbarComponent {
       this.isDropdownOpen = false;
     }
   }
+
+
+  changelang() {
+    const newLang = this.translate.currentLang === 'en' ? 'ar' : 'en';
+    this.translate.use(newLang);
+    localStorage.setItem('lang', newLang); 
+  }
+
 }

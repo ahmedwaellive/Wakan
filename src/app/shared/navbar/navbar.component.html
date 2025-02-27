@@ -10,43 +10,43 @@
     <div class="absolute top-[-8px] left-4 w-0 h-0 border-l-8 border-r-8 border-b-8 border-transparent border-b-[#0000006f]"></div>
 
     <a routerLink="/home" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
-      <div class="font-bold w-full text-right pr-2">الرئيسية</div>
+      <div class="font-bold w-full text-right pr-2">{{'navbar.home' | translate }}</div>
       <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
         <i class="fa-solid fa-house mx-2"></i>
       </div>
     </a>
 
     <a routerLink="/strategy" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
-      <div class="font-bold w-full text-right pr-2">استراتجياتنا</div>
+      <div class="font-bold w-full text-right pr-2">{{'navbar.strategy' | translate }} </div>
       <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
         <i class="fa-solid fa-chart-line"></i>
       </div>
     </a>
 
     <a routerLink="/aboutus" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
-      <div class="font-bold w-full text-right pr-2">عن وكن</div>
+      <div class="font-bold w-full text-right pr-2">{{'navbar.aboutUs' | translate }} </div>
       <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
         <i class="fa-solid fa-info-circle mx-2"></i>
       </div>
     </a>
 
     <a routerLink="/contactus" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
-      <div class="font-bold w-full text-right pr-2">اتصل بنا</div>
+      <div class="font-bold w-full text-right pr-2">{{'navbar.contact' | translate }} </div>
       <div class="font-bold w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
         <i class="fa-solid fa-phone mx-2"></i>
       </div>
     </a>
 
     <a routerLink="/services" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
-      <div class="font-bold w-full text-right pr-2">خدماتنا</div>
+      <div class="font-bold w-full text-right pr-2">{{'navbar.services' | translate }}</div>
       <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
         <i class="fa-solid fa-cogs mx-2"></i>
       </div>
     </a>
 
-    <a  class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
+    <a (click)="changelang()" role="button" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
 
-      <div class="font-bold w-full text-right pr-2">تغيير اللغة</div>
+      <div class="font-bold w-full text-right pr-2">{{'navbar.changelang' | translate }} </div>
       <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
         <i class="fa-solid fa-globe mx-2"></i>
       </div>

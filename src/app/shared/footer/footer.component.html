@@ -14,7 +14,7 @@
           />
         </div>
         <div class="text-white text-xl sm:text-2xl font-bold text-center">
-          انقر علي التالي google map لتصل عبر
+          {{'footer.location' | translate }}
         </div>
         <div class="mb-5">
           <i
@@ -34,7 +34,9 @@
 
     <div class="p-4">
       <div class="flex flex-col items-center gap-4 mb-10">
-        <h3 class="text-white text-2xl font-bold">تواصل معنا</h3>
+        <h3 class="text-white text-2xl font-bold">
+          {{'footer.contact' | translate }}
+           </h3>
         <i
           class="fa-solid fa-arrow-down fa-2xl mt-2"
           style="color: #ffffff"
@@ -45,7 +47,7 @@
         <div>
           <input
             type="text"
-            placeholder="أدخل اسمك"
+            placeholder="{{'form.name' | translate }} "
             class="w-full text-right p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           />
         </div>
@@ -53,7 +55,7 @@
         <div>
           <input
             type="email"
-            placeholder="البريد الإلكتروني"
+            placeholder="{{'form.email' | translate }} "
             class="w-full text-right p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           />
         </div>
@@ -61,7 +63,7 @@
         <div>
           <input
             type="tel"
-            placeholder="رقم الجوال "
+            placeholder=" {{'form.phone' | translate }} "
             class="w-full text-right p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           />
         </div>
@@ -69,7 +71,7 @@
         <div>
           <textarea
             rows="4"
-            placeholder="اكتب هنا"
+            placeholder=" {{'form.message' | translate }}"
             class="w-full text-right p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           ></textarea>
         </div>
@@ -78,7 +80,7 @@
 
           class="w-full bg-black text-white p-3 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:bg-gray-800 transition-all duration-300 ease-in-out"
         >
-          إرسال
+        {{'form.send' | translate }}
         </button>
       </div>
     </div>

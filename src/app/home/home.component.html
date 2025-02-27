@@ -23,7 +23,7 @@
         <h3
           class="text-white text-2xl sm:text-3xl md:text-5xl lg:text-6xl mr-4 md:mr-8 font-bold"
         >
-          وكـن للاسـتثمـار
+          {{ 'home.hero.title' | translate }}
         </h3>
         <div class="flex items-center justify-end">
           <div
@@ -37,12 +37,10 @@
       </div>
 
       <p
-        class="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-center"
-      >
-        شركة رائدة في توفير الحلول المناسبة لكل شرائح الأعمال
+        class="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-center">
+        {{ 'home.hero.subtitle' | translate }}
         <br />
-        تعمل <span class="text-white font-bold">وكن</span> مع برنامج كفالة
-        للمنشآت الصغيرة و المتوسطة
+        {{ 'home.hero.partnership' | translate }}
       </p>
 
       <div class="w-24 h-24 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40">
@@ -52,7 +50,7 @@
       <p
         class="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold"
       >
-        نتطلع لرؤيه <span class="text-black">2030</span> بكامل الارادة والعزم
+         {{'home.vision.title' | translate}} <span class="text-black">2030</span> {{'home.vision.subtitle' | translate}}
       </p>
 
       <div class="w-24 h-24 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-white rounded-full flex items-center justify-center overflow-hidden">
@@ -85,7 +83,7 @@
             <div
               class="w-4 h-4 bg-gray-400 rounded-full mt-2 group-hover:bg-slate-900 transition"
             ></div>
-            <p class="mt-2 text-sm sm:text-lg font-bold">خدماتنا</p>
+            <p class="mt-2 text-sm sm:text-lg font-bold">{{'home.services' | translate}}</p>
           </div>
 
           <div
@@ -99,7 +97,7 @@
             <div
               class="w-4 h-4 bg-gray-400 rounded-full mt-2 group-hover:bg-slate-900 transition"
             ></div>
-            <p class="mt-2 text-sm sm:text-lg font-bold">استراتيجيتنا</p>
+            <p class="mt-2 text-sm sm:text-lg font-bold">{{'home.strategy' | translate}}</p>
           </div>
 
           <div
@@ -113,7 +111,7 @@
             <div
               class="w-4 h-4 bg-gray-400 rounded-full mt-2 group-hover:bg-slate-900 transition"
             ></div>
-            <p class="mt-2 text-sm sm:text-lg font-bold">أعمالنا</p>
+            <p class="mt-2 text-sm sm:text-lg font-bold">{{'home.projects' | translate}}</p>
           </div>
 
           <div
@@ -127,7 +125,7 @@
             <div
               class="w-4 h-4 bg-gray-400 rounded-full mt-2 group-hover:bg-slate-900 transition"
             ></div>
-            <p class="mt-2 text-sm sm:text-lg font-bold">تواصل معنا</p>
+            <p class="mt-2 text-sm sm:text-lg font-bold">{{'home.contact.title' | translate}} </p>
           </div>
         </div>
       </div>
@@ -155,14 +153,14 @@
       <h4
         class="relative px-4 font-bold text-[#85754e] text-2xl sm:text-3xl md:text-4xl custom-line"
       >
-        الشركات الشقيقة لوكن
+        {{'home.sister_companies.title' | translate}}
       </h4>
     </div>
 
     <div
       class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center leading-relaxed"
     >
-      انـقـر علي اللـوغـو لتـحـمـيـل بـروفـايـل الـشركـه الشـقـيـقـة
+      {{'home.sister_companies.instruction' | translate}}
     </div>
   </div>
 
@@ -180,7 +178,7 @@
 
         class="px-8 sm:px-10 py-2 sm:py-3 text-black text-xl sm:text-2xl bg-[#a0947c]/80 rounded-lg font-bold hover:bg-[#85754e] transition-all duration-300"
       >
-        تحميل البروفايل
+        {{'home.sister_companies.button' | translate}}
       </a>
     </div>
   </div>
