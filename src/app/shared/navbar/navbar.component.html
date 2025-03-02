@@ -23,6 +23,15 @@
       </div>
     </a>
 
+    <a routerLink="/services" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
+      <div class="font-bold w-full text-right pr-2">{{'navbar.services' | translate }}</div>
+      <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
+        <i class="fa-solid fa-cogs mx-2"></i>
+      </div>
+    </a>
+
+
+
     <a routerLink="/aboutus" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
       <div class="font-bold w-full text-right pr-2">{{'navbar.aboutUs' | translate }} </div>
       <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
@@ -37,12 +46,7 @@
       </div>
     </a>
 
-    <a routerLink="/services" routerLinkActive="bg-zinc-800" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
-      <div class="font-bold w-full text-right pr-2">{{'navbar.services' | translate }}</div>
-      <div class="w-[35px] h-[35px] border-[2px] rounded-full justify-center items-center flex border-white">
-        <i class="fa-solid fa-cogs mx-2"></i>
-      </div>
-    </a>
+
 
     <a (click)="changelang()" role="button" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-zinc-700 rounded-lg">
 
