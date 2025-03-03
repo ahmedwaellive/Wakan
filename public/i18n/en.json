@@ -28,8 +28,8 @@
       "send": "Send"
     },
     "sister_companies": {
-      "title": "Sister Companies  ",
-      "instruction": "Click on the logo to download the sister company's profile",
+      "title": "SISTER COMPANIES  ",
+      "instruction": "CLICK ON THE LOGO TO DOWNLOAD THE SISTER COMPANY PROFILE",
       "button": "Download Profile"
     }
   },
@@ -43,8 +43,8 @@
     }
   },
   "aboutUsPage": {
-    "scroll_down": "Scroll Down",
-    "title": "Wakan Investment",
+    "scroll_down": "SWIPE DOWN",
+    "title": "About WAKAN WEALTH",
     "intro": "A leading company providing suitable solutions for all business sectors",
     "new":"Wakan ",
     "newo":"collaborates ",
@@ -67,27 +67,28 @@
   "servicesPage": {
     "scrollDown": "Scroll Down",
     "services": "Our Services",
-    "restructuring": "Restructuring and Organization",
-    "projectFinancing": "Project Financing",
-    "mergersAcquisitions": "Mergers and Acquisitions",
-    "feasibilityStudies": "Economic Feasibility Studies",
+    "restructuring": "RESTRUCTURING AND ORGANIZATION  ",
+    "projectFinancing": "PROJECT FINANCING ",
+    "mergersAcquisitions": "MERGERS AND ACQUISITIONS  ",
+    "feasibilityStudies": "ECONOMIC FEASIBILITY STUDIES  ",
     "restructuringSer": {
       "title": "Restructuring and Organization",
       "description": "We provide innovative solutions for financial and administrative restructuring through the following steps",
       "steps": {
-        "reasons": "Agreeing on the reasons that led to the change",
-        "alternatives": "Studying the available alternatives for restructuring",
-        "documents": "Preparing documents and studies",
+        "assessment": "Identifying the reasons that led or will lead to difficulties",
+        "restructuring_options": "Studying the available options for restructuring",
+        "documentation": "Preparing documents and studies",
         "supervision": "Supervision, follow-up, and coordination",
-        "execution": "Initiating the process to achieve the desired results professionally",
-        "analysis": "Analyzing results and providing comprehensive reports on strengths, weaknesses, opportunities, and challenges",
-        "risks": "Assessing potential risks and finding solutions to mitigate them",
-        "financing": "Setting financing alternatives and expected returns for each"
+        "consultation": "Providing advice during the negotiation period",
+        "completion": "Completing the process professionally to achieve the desired goals",
+        "market_studies": "Supervising the preparation of market and technical studies",
+        "transaction_analysis": "Studying transactions from all aspects and analyzing strengths, weaknesses, opportunities, and challenges",
+        "risk_assessment": "Assessing the degree of risks surrounding the project and how to mitigate them",
+        "funding_options": "Setting available financing alternatives and expected returns for each option"
       },
       "projectFinancing": {
         "title": "Project Financing",
-        "description": "Identifying suitable financial needs for establishing or growing the project, selecting the best financing sources with the lowest investment costs, and aligning funding with the nature of the project to ensure successful financing.",
-        "services": "Financing services include project evaluation, feasibility studies, and recommendations on appropriate financing."
+        "description":"Determine the appropriate financing needs Prepare the credit file. Determi-ne the available financing alternatives and the cost of financing for each source. Contact financial institutions, negotiate and review contracts and terminate the contract with them. Obtain financing with real estate or point of sale guarantee for companies and institutions. The value of the financing is deducted from the income of the company or institution.Obtain financing on rented properties such as (residential and commercial buildings, factories, towers, complexes, warehouses, stations and rented lands) and the value of the financing is deducted from the revenue and not from the customer's income. Carry out financing with a real estate guarant-ee, and this is done by mortgaging the property and financing with a real estate guarantee from the customer's income through banks and approved financial companies"
       },
       "mergersAcquisitions": {
         "title": "Mergers and Acquisitions",
@@ -117,13 +118,13 @@
     "about": "Wakan for Investment",
     "contact": "Contact Us",
     "profile": "Download Profile",
-    "location": "Click on Google Map to reach us"
+    "location": "To reach across GOOGLE MAP click here"
   },
   "form": {
-    "name": "Your Name",
-    "email": "Your Email",
-    "phone": "Your Phone Number",
-    "message": "Your Message",
+    "name": " Name",
+    "email": " Email",
+    "phone": "Mobile number",
+    "message": "Write here",
     "send": "Send"
   }
 }
