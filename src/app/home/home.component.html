@@ -1,39 +1,41 @@
-<!-- <section class="relative">
-  <div class="w-full">
-    <img class="w-full h-auto" src="/images/home.png" alt="" srcset="" />
-  </div>
-</section> -->
-
-<section class=" overflow-hidden ">
+<section class="overflow-hidden">
   <div class="grid gap-5 lg:grid-cols-[50%_1fr] min-h-screen mx-auto">
-
-    <!-- Text Content -->
-   <div class=" flex flex-col justify-center items-center text-white  md:px-10 space-y-6 md:space-y-10">
-    <div class="text-right py-10  md:px-10">
-
-      <div class="flex flex-col items-center justify-center ">
-        <div class=" w-[250px] sm:56 md:w-96 h-auto  flex items-center justify-center">
-          <img src="/images/Untitled-1.png٢٣.png" class="w-full h-auto object-contain" alt="logo wakon"/>
-        </div>
-        <div class="mt-10">
-          <p class="text-black text-2xl text-center font-bold"> {{'mainSec.mainp' | translate}}</p>
-          <div class="flex justify-around pt-10">
-            <div class="text-center w-8 flex flex-col items-center">
-              <img class="w-full" src="/images/Icon01.png" alt="" />
-              <span class="text-xl font-bold text-black">KSA</span>
-            </div>
-            <div class="text-center w-8 flex flex-col items-center">
-              <img class="w-full" src="/images/Icon02.png" alt="" />
-              <span class="text-xl font-bold text-black whitespace-nowrap"> {{'mainSec.place' | translate}} </span>
-              <span class="text-xl font-bold text-black"> 49</span>
+    <div
+      class="flex flex-col justify-center items-center text-white md:px-10 space-y-6 md:space-y-10"
+    >
+      <div class="text-right py-10 md:px-10">
+        <div class="flex flex-col items-center justify-center">
+          <div
+            class="w-[250px] sm:56 md:w-96 h-auto flex items-center justify-center"
+          >
+            <img
+              src="/images/Untitled-1.png٢٣.png"
+              class="w-full h-auto object-contain"
+              alt="logo wakon"
+            />
+          </div>
+          <div class="mt-10">
+            <p class="text-black text-2xl text-center font-bold">
+              {{ "mainSec.mainp" | translate }}
+            </p>
+            <div class="flex justify-around pt-10">
+              <div class="text-center w-8 flex flex-col items-center">
+                <img class="w-full" src="/images/Icon01.png" alt="" />
+                <span class="text-xl font-bold text-black">KSA</span>
+              </div>
+              <div class="text-center w-8 flex flex-col items-center">
+                <img class="w-full" src="/images/Icon02.png" alt="" />
+                <span class="text-xl font-bold text-black whitespace-nowrap">
+                  {{ "mainSec.place" | translate }}
+                </span>
+                <span class="text-xl font-bold text-black"> 49</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-    <!-- Image Section (Hidden on screens smaller than 1024px) -->
     <div class="h-full w-full hidden lg:block">
       <img
         class="w-full h-full object-cover"
@@ -44,18 +46,7 @@
   </div>
 </section>
 
-
-
-
 <div class="w-full bg-gray-800 h-[7px]"></div>
-
-
-
-
-
-
-
-
 
 <section class="bg-[#8d8061] overflow-hidden pb-10">
   <div class="grid gap-5 lg:grid-cols-[50%_1fr] min-h-screen mx-auto">
@@ -74,7 +65,7 @@
         <h3
           class="text-white text-2xl sm:text-3xl md:text-5xl lg:text-6xl mr-4 md:mr-8 font-bold"
         >
-          {{ 'home.hero.title' | translate }}
+          {{ "home.hero.title" | translate }}
         </h3>
         <div class="flex items-center justify-end">
           <div
@@ -88,10 +79,15 @@
       </div>
 
       <p
-        class="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-center text-black">
-        {{ 'home.hero.subtitle' | translate }}
+        class="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-center text-black"
+      >
+        {{ "home.hero.subtitle" | translate }}
         <br />
-        {{ 'home.hero.newo' | translate }} <span class="text-white font-bold text-3xl">{{ 'home.hero.new' | translate }} </span> {{ 'home.hero.partnership' | translate }}
+        {{ "home.hero.newo" | translate }}
+        <span class="text-white font-bold text-3xl"
+          >{{ "home.hero.new" | translate }}
+        </span>
+        {{ "home.hero.partnership" | translate }}
       </p>
 
       <div class="w-24 h-24 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40">
@@ -101,18 +97,23 @@
       <p
         class="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold"
       >
-         {{'home.vision.title' | translate}} <span class="text-black">2030</span> {{'home.vision.subtitle' | translate}}
+        {{ "home.vision.title" | translate }}
+        <span class="text-black">2030</span>
+        {{ "home.vision.subtitle" | translate }}
       </p>
 
-      <div class="w-24 h-24 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-white rounded-full flex items-center justify-center overflow-hidden">
-        <img class="w-3/4 h-3/4 object-contain" src="/images/Saudi_Vision_2030_logo.svg.png" alt="Logo" />
+      <div
+        class="w-24 h-24 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-white rounded-full flex items-center justify-center overflow-hidden"
+      >
+        <img
+          class="w-3/4 h-3/4 object-contain"
+          src="/images/Saudi_Vision_2030_logo.svg.png"
+          alt="Logo"
+        />
       </div>
-
     </div>
   </div>
 </section>
-
-
 
 <section class="py-10">
   <div class="overflow-hidden">
@@ -123,7 +124,8 @@
         <div
           class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 pb-10 z-50"
         >
-          <div [routerLink]="['/services']"
+          <div
+            [routerLink]="['/services']"
             class="group flex flex-col items-center text-gray-400 hover:text-[#8d8061] transition mx-1"
           >
             <div
@@ -134,10 +136,13 @@
             <div
               class="w-4 h-4 bg-gray-400 rounded-full mt-2 group-hover:bg-slate-900 transition"
             ></div>
-            <p class="mt-2 text-sm sm:text-lg font-bold">{{'home.services' | translate}}</p>
+            <p class="mt-2 text-sm sm:text-lg font-bold">
+              {{ "home.services" | translate }}
+            </p>
           </div>
 
-          <div [routerLink]="['/strategy']"
+          <div
+            [routerLink]="['/strategy']"
             class="group flex flex-col items-center text-gray-400 hover:text-[#8d8061] transition mx-4"
           >
             <div
@@ -148,10 +153,13 @@
             <div
               class="w-4 h-4 bg-gray-400 rounded-full mt-2 group-hover:bg-slate-900 transition"
             ></div>
-            <p class="mt-2 text-sm sm:text-lg font-bold">{{'home.strategy' | translate}}</p>
+            <p class="mt-2 text-sm sm:text-lg font-bold">
+              {{ "home.strategy" | translate }}
+            </p>
           </div>
 
-          <div [routerLink]="['/aboutus']"
+          <div
+            [routerLink]="['/aboutus']"
             class="group flex flex-col items-center text-gray-400 hover:text-[#8d8061] transition mx-4"
           >
             <div
@@ -162,10 +170,13 @@
             <div
               class="w-4 h-4 bg-gray-400 rounded-full mt-2 group-hover:bg-slate-900 transition"
             ></div>
-            <p class="mt-2 text-sm sm:text-lg font-bold">{{'home.projects' | translate}}</p>
+            <p class="mt-2 text-sm sm:text-lg font-bold">
+              {{ "home.projects" | translate }}
+            </p>
           </div>
 
-          <div [routerLink]="['/contactus']"
+          <div
+            [routerLink]="['/contactus']"
             class="group flex flex-col items-center text-gray-400 hover:text-[#8d8061] transition mx-4"
           >
             <div
@@ -176,7 +187,9 @@
             <div
               class="w-4 h-4 bg-gray-400 rounded-full mt-2 group-hover:bg-slate-900 transition"
             ></div>
-            <p class="mt-2 text-sm sm:text-lg font-bold">{{'home.contact.title' | translate}} </p>
+            <p class="mt-2 text-sm sm:text-lg font-bold">
+              {{ "home.contact.title" | translate }}
+            </p>
           </div>
         </div>
       </div>
@@ -192,8 +205,6 @@
   </div>
 </section>
 
-
-
 <section class="py-10 md:py-20">
   <div class="flex flex-col items-center gap-5 px-4 md:px-8 lg:px-20">
     <div class="w-32 sm:w-44">
@@ -204,14 +215,14 @@
       <h4
         class="relative px-4 font-bold text-[#85754e] text-2xl sm:text-3xl md:text-4xl custom-line"
       >
-        {{'home.sister_companies.title' | translate}}
+        {{ "home.sister_companies.title" | translate }}
       </h4>
     </div>
 
     <div
       class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center leading-relaxed"
     >
-      {{'home.sister_companies.instruction' | translate}}
+      {{ "home.sister_companies.instruction" | translate }}
     </div>
   </div>
 
@@ -226,12 +237,10 @@
 
     <div class="flex justify-center">
       <a
-
         class="px-8 sm:px-10 py-2 sm:py-3 text-black text-xl sm:text-2xl bg-[#a0947c]/80 rounded-lg font-bold hover:bg-[#85754e] transition-all duration-300"
       >
-        {{'home.sister_companies.button' | translate}}
+        {{ "home.sister_companies.button" | translate }}
       </a>
     </div>
   </div>
 </section>
-
