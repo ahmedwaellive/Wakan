@@ -1,4 +1,5 @@
 <section
+[ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}"
   class="h-screen bg-cover bg-center relative"
   style="background-image: url('/images/Artboard 1.png')"
 >
@@ -20,7 +21,7 @@
 
 
 
-<section class="bg-[#8d8061] overflow-hidden pb-10">
+<section class="bg-[#8d8061] overflow-hidden pb-10" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div class="grid gap-5 lg:grid-cols-[50%_1fr] min-h-screen mx-auto">
     <div class="h-full w-full">
       <img
@@ -33,9 +34,9 @@
     <div
       class="z-50 flex flex-col justify-center items-center text-white px-4 md:px-10 space-y-6 md:space-y-10"
     >
-      <div class="text-right py-10 px-4 md:px-10">
+      <div class="text-right py-10 px-4 md:px-6">
         <h3
-          class="text-white text-2xl sm:text-3xl md:text-5xl lg:text-6xl mr-4 md:mr-8 font-bold"
+          class="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl mr-4 md:mr-8 font-bold"
         >
         {{'aboutUsPage.title' | translate }}
         </h3>
@@ -61,7 +62,7 @@
       </div>
 
       <p
-        class="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold"
+        class="text-center text-[1.50rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold"
       >
       {{'aboutUsPage.vision.title' | translate }} <span class="text-black">2030</span> {{'aboutUsPage.vision.subtitle' | translate }}
       </p>
@@ -74,7 +75,7 @@
 </section>
 
 
-<section class="py-10">
+<section class="py-10" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div class="overflow-hidden">
     <div
       class="grid gap-4 container mx-auto grid-cols-1 md:grid-cols-[55%_1fr] min-h-screen"
@@ -99,7 +100,7 @@
           {{'aboutUsPage.experience' | translate }}
         </p>
 
-        <p class="text-gray-700 leading-relaxed text-lg max-w-xl">
+        <p class="text-gray-700 leading-relaxed text-lg max-w-xl px-6 sm:px-0">
           {{'aboutUsPage.aboutUsPage.summary' | translate }}
         </p>
 

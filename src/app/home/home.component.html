@@ -1,4 +1,4 @@
-<section class="overflow-hidden">
+<section class="overflow-hidden" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}" >
   <div class="grid gap-5 lg:grid-cols-[50%_1fr] min-h-screen mx-auto">
     <div
       class="flex flex-col justify-center items-center text-white md:px-10 space-y-6 md:space-y-10"
@@ -15,7 +15,7 @@
             />
           </div>
           <div class="mt-10">
-            <p class="text-black text-2xl text-center font-bold">
+            <p class="text-black text-2xl text-center font-bold px ">
               {{ "mainSec.mainp" | translate }}
             </p>
             <div class="flex justify-around pt-10">
@@ -47,7 +47,7 @@
 </section>
 
 
-<section class="bg-[#8d8061] overflow-hidden pb-10">
+<section class="bg-[#8d8061] overflow-hidden pb-10" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div class="grid gap-5 lg:grid-cols-[50%_1fr] min-h-screen mx-auto">
     <div class="h-full w-full">
       <img
@@ -58,11 +58,11 @@
     </div>
 
     <div
-      class="z-50 flex flex-col justify-center items-center text-white px-4 md:px-10 space-y-6 md:space-y-10"
+      class=" flex flex-col justify-center items-center text-white px-4 md:px-10 space-y-6 md:space-y-10"
     >
-      <div class="text-right py-10 px-4 md:px-10">
+      <div class="text-right py-10 px-4 md:px-6">
         <h3
-          class="text-white text-2xl sm:text-3xl md:text-5xl lg:text-6xl mr-4 md:mr-8 font-bold"
+          class="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl mr-4 md:mr-8 font-bold"
         >
           {{ "home.hero.title" | translate }}
         </h3>
@@ -94,7 +94,7 @@
       </div>
 
       <p
-        class="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold"
+        class="text-center text-[1.50rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold"
       >
         {{ "home.vision.title" | translate }}
         <span class="text-black">2030</span>
@@ -114,14 +114,14 @@
   </div>
 </section>
 
-<section class="py-10">
+<section class="py-10" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div class="overflow-hidden">
     <div
       class="grid gap-4 container mx-auto grid-cols-1 md:grid-cols-[55%_1fr] min-h-screen"
     >
       <div class="flex justify-center items-center mt-10">
         <div
-          class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 pb-10 z-50"
+          class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 pb-10 "
         >
           <div
             [routerLink]="['/services']"
@@ -204,7 +204,7 @@
   </div>
 </section>
 
-<section class="py-10 md:py-20">
+<section class="py-10 md:py-20" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div class="flex flex-col items-center gap-5 px-4 md:px-8 lg:px-20">
     <div class="w-32 sm:w-44">
       <img src="/images/Untitled-1.png٢٣.png" class="w-full" alt="logo wakon" />
@@ -228,15 +228,15 @@
   <div class="py-10 md:py-16">
     <div class="flex justify-center items-center pt-10 pb-5">
       <img
-        class="border-2 border-gray-300 rounded-lg w-32 sm:w-44 md:w-52 lg:w-60 transition-transform hover:scale-105"
+        class="border-2 border-gray-300 rounded-lg w-28 sm:w-36 md:w-44 lg:w-56 transition-transform hover:scale-105"
         src="/images/img57.jpg"
         alt="logo"
       />
     </div>
 
-    <div class="flex justify-center">
+    <div class="flex justify-center pt-5">
       <a
-        class="px-8 sm:px-10 py-2 sm:py-3 text-black text-xl sm:text-2xl bg-[#a0947c]/80 rounded-lg font-bold hover:bg-[#85754e] transition-all duration-300"
+        class="px-6 sm:px-8 py-2 sm:py-3 text-black text-xl sm:text-2xl bg-[#a0947c]/80 rounded-lg font-bold hover:bg-[#85754e] transition-all duration-300"
       >
         {{ "home.sister_companies.button" | translate }}
       </a>

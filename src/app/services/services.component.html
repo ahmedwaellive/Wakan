@@ -1,4 +1,4 @@
-<section
+<section [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}"
   class="h-screen bg-cover bg-center relative"
   style="background-image: url('/images/Artboard 1.png')"
 >
@@ -18,7 +18,7 @@
   </div>
 </section>
 
-<section
+<section [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}"
   class="w-full h-screen flex justify-center items-center bg-[#8c784a] px-4"
 >
   <div class="relative flex justify-center items-center max-w-full max-h-full">
@@ -101,7 +101,7 @@
 
 
 
-<section class="w-full py-12 bg-white">
+<section class="w-full py-12 bg-white overflow-hidden" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div
     class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
   >
@@ -109,7 +109,7 @@
       class="order-2 md:order-1 text-right flex flex-col justify-center items-center"
     >
       <h2
-        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line"
+        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
       >
         <span
           class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-30"
@@ -196,7 +196,7 @@
           class="absolute inset-0 bg-gradient-to-b from-transparent to-[#e0d8b0] rounded-full opacity-30"
         ></div>
         <img
-          src="/images/our-services.gif"
+          src="/images/1.png"
           alt="Icon"
           class="w-full h-auto rounded-lg"
         />
@@ -207,9 +207,9 @@
 
 
 
-<section class="w-full py-12 bg-white">
+<section class="w-full py-12 bg-white overflow-hidden" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div
-    class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
+    class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center"
   >
     <div class="order-1 md:order-1 flex justify-center items-center">
       <div class="relative w-full max-w-xs md:max-w-md">
@@ -217,7 +217,7 @@
           class="absolute inset-0 bg-gradient-to-b from-transparent to-[#e0d8b0] rounded-lg opacity-30"
         ></div>
         <img
-          src="/images/ssssss.png"
+          src="./images/2.png"
           alt="Icon"
           class="w-full h-auto rounded-lg"
         />
@@ -232,7 +232,7 @@
           class="flex flex-col items-center justify-center text-center gap-3 my-10"
         >
           <h2
-            class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line"
+            class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
           >
             <span
               class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-30"
@@ -253,7 +253,7 @@
 
 
 
-<section class="w-full py-12 bg-white">
+<section class="w-full py-12 bg-white overflow-hidden" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div
     class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
   >
@@ -261,7 +261,7 @@
       class="order-2 md:order-1 text-right flex flex-col justify-center items-center"
     >
       <h2
-        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line"
+        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
       >
         <span
           class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-30"
@@ -313,7 +313,7 @@
           class="absolute inset-0 bg-gradient-to-b from-transparent to-[#e0d8b0] rounded-full opacity-30"
         ></div>
         <img
-          src="/images/333333z.png"
+          src="./images/3.png"
           alt="Icon"
           class="w-full h-auto rounded-lg"
         />
@@ -323,9 +323,9 @@
 </section>
 
 
-<section class="w-full py-12 bg-white">
+<section class="w-full py-12 bg-white overflow-hidden" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div
-    class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
+    class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center"
   >
     <!-- الصورة -->
     <div class="order-1 flex justify-center items-center">
@@ -334,7 +334,7 @@
           class="absolute inset-0 bg-gradient-to-b from-transparent to-[#e0d8b0] rounded-full opacity-30"
         ></div>
         <img
-          src="/images/Asset 4.png"
+          src="./images/4.png"
           alt="Icon"
           class="w-full h-auto rounded-lg"
         />
@@ -343,7 +343,7 @@
 
     <div class="order-2 text-right flex flex-col justify-center items-center">
       <h2
-        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line"
+        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
       >
         <span
           class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-30"

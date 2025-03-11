@@ -1,4 +1,5 @@
 <section
+[ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}"
   class="h-screen bg-cover bg-center relative"
   style="background-image: url('/images/Artboard 1.png')"
 >
@@ -20,7 +21,7 @@
 
 
 
-<section class="py-10 flex flex-col items-center">
+<section class="py-10 flex flex-col items-center" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div
     class="my-10 w-24 h-24 flex items-center justify-center rounded-full border-2 border-gray-300 hover:border-[#85754e] transition duration-300 shadow-lg hover:shadow-xl"
   >
