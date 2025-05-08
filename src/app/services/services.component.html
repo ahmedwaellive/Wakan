@@ -19,85 +19,94 @@
 </section>
 
 <section [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}"
-  class="w-full h-screen flex justify-center items-center bg-[#8c784a] px-4"
+  class="w-full h-screen flex justify-center items-center bg-[#8c784a] px-4 relative overflow-hidden"
 >
   <div class="relative flex justify-center items-center max-w-full max-h-full">
+
+    <!-- الدائرة الداخلية -->
     <div
-      class="absolute w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-full border-4 border-gray-400 flex justify-center items-center"
+      class="absolute w-44 h-44 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-full border-4 border-white/60 shadow-inner flex justify-center items-center bg-white/10 backdrop-blur-sm "
     >
-      <h2 class="text-white text-xl sm:text-3xl md:text-4xl font-bold">
+      <h2 class="text-white text-xl sm:text-3xl md:text-4xl font-extrabold tracking-wide text-center">
         {{'servicesPage.services' | translate}}
       </h2>
     </div>
 
+    <!-- الدائرة الخارجية -->
     <div
-      class="w-64 h-64 sm:w-96 sm:h-96 md:w-[28rem] md:h-[28rem] rounded-full border-4 border-gray-400"
+      class="w-60 h-60 sm:w-96 sm:h-96 md:w-[28rem] md:h-[28rem] rounded-full border-4 border-white/40 shadow-xl"
     ></div>
 
+    <!-- عناصر الخدمات -->
     <div class="absolute w-full h-full flex justify-center items-center">
+
+      <!-- الخدمة 1 -->
       <div
-        class="absolute top-[15px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center"
+        class="absolute top-[-10px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center flex-col-reverse"
       >
         <div
-          class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-black text-white flex justify-center items-center text-base sm:text-lg font-bold"
+          class="w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-black text-white flex justify-center items-center text-base sm:text-lg font-bold shadow-md"
         >
           1
         </div>
         <span
-          class="text-white text-xs sm:text-lg font-semibold mt-1 text-center">
-          {{'servicesPage.restructuring' | translate}}
-              </span
+          class="text-white text-[10px] sm:text-sm md:text-base font-semibold mt-1 text-center leading-tight"
         >
+          {{'servicesPage.restructuring' | translate}}
+        </span>
       </div>
 
+      <!-- الخدمة 2 -->
       <div
         class="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 flex flex-col items-center"
       >
         <div
-          class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-black text-white flex justify-center items-center text-base sm:text-lg font-bold"
+          class="w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-black text-white flex justify-center items-center text-base sm:text-lg font-bold shadow-md"
         >
           2
         </div>
         <span
-          class="text-white text-xs sm:text-lg font-semibold mt-1 text-right"
-          >
-          {{'servicesPage.projectFinancing' | translate}}
-           </span
+          class="text-white text-[10px] sm:text-sm md:text-base font-semibold mt-1  leading-tight"
         >
+          {{'servicesPage.projectFinancing' | translate}}
+        </span>
       </div>
 
+      <!-- الخدمة 3 -->
       <div
         class="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 translate-y-1/2 flex flex-col items-center"
       >
         <div
-          class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-black text-white flex justify-center items-center text-base sm:text-lg font-bold"
+          class="w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-black text-white flex justify-center items-center text-base sm:text-lg font-bold shadow-md"
         >
           3
         </div>
         <span
-          class="text-white text-xs sm:text-lg font-semibold mt-1 text-center">
-
-          {{'servicesPage.mergersAcquisitions' | translate}}
-          </span
+          class="text-white text-[10px] sm:text-sm md:text-base font-semibold mt-1 text-center leading-tight"
         >
+          {{'servicesPage.mergersAcquisitions' | translate}}
+        </span>
       </div>
 
+      <!-- الخدمة 4 -->
       <div
         class="absolute top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center"
       >
         <div
-          class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-black text-white flex justify-center items-center text-base sm:text-lg font-bold"
+          class="w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-black text-white flex justify-center items-center text-base sm:text-lg font-bold shadow-md"
         >
           4
         </div>
         <span
-          class="text-white text-xs sm:text-lg font-semibold mt-1 text-center"
-          >  {{'servicesPage.feasibilityStudies' | translate}} </span
+          class="text-white text-[10px] text-wrap sm:text-sm md:text-base font-semibold mt-1 text-center leading-tight"
         >
+          {{'servicesPage.feasibilityStudies' | translate}}
+        </span>
       </div>
     </div>
   </div>
 </section>
+
 
 
 
@@ -106,88 +115,62 @@
     class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
   >
     <div
-      class="order-2 md:order-1 text-right flex flex-col justify-center items-center"
+      class="order-2 md:order-1  flex flex-col justify-center items-center"
     >
-      <h2
-        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
-      >
-        <span
-          class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-30"
-          >1</span
-        > {{'servicesPage.restructuringSer.title' | translate}}
-      </h2>
+    <h2
+    class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
+  >
+    <span
+      class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-75 z-0"
+    >
+      1
+    </span>
+    <span class="relative z-10">
+      {{ 'servicesPage.restructuringSer.title' | translate }}
+    </span>
+  </h2>
 
-      <p class="my-4 text-xl text-[#85754e]">{{'servicesPage.restructuringSer.description' | translate}}</p>
-      <ul class="text-gray-600 space-y-4  ">
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span>
-            {{'servicesPage.restructuringSer.steps.assessment' | translate}}
-          </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span> {{'servicesPage.restructuringSer.steps.restructuring_options' | translate}}
-          </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span> {{'servicesPage.restructuringSer.steps.documentation' | translate}} </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span>{{'servicesPage.restructuringSer.steps.supervision' | translate}}  </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span
-            >     {{'servicesPage.restructuringSer.steps.consultation' | translate}}    </span
-          >
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span> {{'servicesPage.restructuringSer.steps.completion' | translate}}      </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span> {{'servicesPage.restructuringSer.steps.market_studies' | translate}}
-            </span
-          >
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span>  {{'servicesPage.restructuringSer.steps.transaction_analysis' | translate}}     </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span>  {{'servicesPage.restructuringSer.steps.risk_assessment' | translate}}     </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span
-          ><span>  {{'servicesPage.restructuringSer.steps.funding_options' | translate}}     </span>
-        </li>
 
-      </ul>
+      <p class="my-4 leading-relaxed text-xl text-[#85754e]" dir="ltr"  >{{'servicesPage.restructuringSer.description' | translate}}</p>
+      <ul
+      class="text-gray-600 space-y-4 list-disc"
+      [ngClass]="{
+        'pr-6 text-right rtl-list': translate.currentLang === 'ar',
+        'pl-6 text-left ltr-list': translate.currentLang === 'en'
+      }"
+    >
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.assessment' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.restructuring_options' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.documentation' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.supervision' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.consultation' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.completion' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.market_studies' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.transaction_analysis' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.risk_assessment' | translate }}
+      </li>
+      <li>
+        {{ 'servicesPage.restructuringSer.steps.funding_options' | translate }}
+      </li>
+    </ul>
+
     </div>
 
     <div class="order-1 md:order-2 flex justify-center items-center">
@@ -225,24 +208,29 @@
     </div>
 
     <div
-      class="order-2 md:order-1 text-right flex flex-col justify-center items-center"
+      class="order-2 md:order-1  flex flex-col justify-center items-center"
     >
       <div class="flex flex-col justify-center items-center text-center">
         <div
           class="flex flex-col items-center justify-center text-center gap-3 my-10"
         >
-          <h2
-            class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
-          >
-            <span
-              class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-30"
-              >2</span
-            >
-            {{'servicesPage.restructuringSer.projectFinancing.title' | translate}}
-          </h2>
+        <h2
+        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
+      >
+        <span
+          class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-75 z-0"
+        >
+          2
+        </span>
+        <span class="relative z-10">
+          {{ 'servicesPage.restructuringSer.projectFinancing.title' | translate }}
+        </span>
+      </h2>
+
         </div>
 
-        <p class="text-gray-700 leading-relaxed text-justify">
+        <p class="text-gray-700 leading-relaxed text-justify"
+        [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'">
           {{'servicesPage.restructuringSer.projectFinancing.description' | translate}}
 
            </p>
@@ -258,53 +246,43 @@
     class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
   >
     <div
-      class="order-2 md:order-1 text-right flex flex-col justify-center items-center"
+      class="order-2 md:order-1  flex flex-col justify-center items-center"
     >
-      <h2
-        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
-      >
-        <span
-          class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-30"
-          >3</span
-        > {{'servicesPage.restructuringSer.mergersAcquisitions.title' | translate}}
-      </h2>
+    <h2
+    class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
+  >
+    <span
+      class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-75 z-0"
+    >
+      3
+    </span>
+    <span class="relative z-10">
+      {{ 'servicesPage.restructuringSer.mergersAcquisitions.title' | translate }}
+    </span>
+  </h2>
 
-      <p class="my-4  text-xl text-[#85754e]">
+
+      <p class="my-4  text-xl text-[#85754e]"
+        [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'"
+        class=" leading-relaxed  text-xl text-[#85754e]"
+      >
         {{'servicesPage.restructuringSer.mergersAcquisitions.description' | translate}}
       </p>
 
-      <ul class="text-gray-600 space-y-4">
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span>{{'servicesPage.restructuringSer.mergersAcquisitions.steps.strategy' | translate}}</span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span>  {{'servicesPage.restructuringSer.mergersAcquisitions.steps.documents' | translate}}</span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span> {{'servicesPage.restructuringSer.mergersAcquisitions.steps.supervision' | translate}}  </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span>{{'servicesPage.restructuringSer.mergersAcquisitions.steps.legalAdvice' | translate}}     </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span> {{'servicesPage.restructuringSer.mergersAcquisitions.steps.execution' | translate}}         </span>
-        </li>
-      </ul>
+      <ul
+  class="text-gray-600 space-y-4 list-disc"
+  [ngClass]="{
+    'rtl-list text-right': translate.currentLang === 'ar',
+    'ltr-list text-left': translate.currentLang === 'en'
+  }"
+>
+  <li>{{ 'servicesPage.restructuringSer.mergersAcquisitions.steps.strategy' | translate }}</li>
+  <li>{{ 'servicesPage.restructuringSer.mergersAcquisitions.steps.documents' | translate }}</li>
+  <li>{{ 'servicesPage.restructuringSer.mergersAcquisitions.steps.supervision' | translate }}</li>
+  <li>{{ 'servicesPage.restructuringSer.mergersAcquisitions.steps.legalAdvice' | translate }}</li>
+  <li>{{ 'servicesPage.restructuringSer.mergersAcquisitions.steps.execution' | translate }}</li>
+</ul>
+
     </div>
 
     <div class="order-1 md:order-2 flex justify-center items-center">
@@ -341,54 +319,37 @@
       </div>
     </div>
 
-    <div class="order-2 text-right flex flex-col justify-center items-center">
+    <div class="order-2  flex flex-col justify-center items-center">
       <h2
-        class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
-      >
-        <span
-          class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-30"
-          >4</span
-        > {{'servicesPage.restructuringSer.feasibilityStudies.title' | translate}}
-      </h2>
+  class="text-3xl font-bold text-[#8c784a] mb-2 relative my-10 custom-line text-center"
+>
+  <span
+    class="absolute inset-0 flex justify-center items-center text-7xl text-[#e0d8b0] opacity-75 z-0"
+  >
+    4
+  </span>
+  <span class="relative z-10">
+    {{ 'servicesPage.restructuringSer.feasibilityStudies.title' | translate }}
+  </span>
+</h2>
+
 
       <p class="my-4 text-2xl text-[#85754e]"> {{'servicesPage.restructuringSer.feasibilityStudies.description' | translate}} </p>
 
-      <ul class="text-gray-600 space-y-4">
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span>{{'servicesPage.restructuringSer.feasibilityStudies.steps.marketStudies' | translate}}      </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span> {{'servicesPage.restructuringSer.feasibilityStudies.steps.projectAnalysis' | translate}}  </span
-          >
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span>{{'servicesPage.restructuringSer.feasibilityStudies.steps.riskAssessment' | translate}}       </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span>{{'servicesPage.restructuringSer.feasibilityStudies.steps.financingAlternatives' | translate}}         </span>
-        </li>
-        <li class="flex items-start gap-3 flex-row-reverse relative">
-          <span
-            class="w-5 h-5 rounded-full bg-gray-500 flex-shrink-0 absolute right-0 top-0 opacity-30 translate-x-2 translate-y-1"
-          ></span>
-          <span
-            >{{'servicesPage.restructuringSer.feasibilityStudies.steps.financialIndicators' | translate}}
-            </span
-          >
-        </li>
-      </ul>
+      <ul
+      class="text-gray-600 space-y-4 list-disc"
+      [ngClass]="{
+        'rtl-list text-right': translate.currentLang === 'ar',
+        'ltr-list text-left': translate.currentLang === 'en'
+      }"
+    >
+      <li>{{ 'servicesPage.restructuringSer.feasibilityStudies.steps.marketStudies' | translate }}</li>
+      <li>{{ 'servicesPage.restructuringSer.feasibilityStudies.steps.projectAnalysis' | translate }}</li>
+      <li>{{ 'servicesPage.restructuringSer.feasibilityStudies.steps.riskAssessment' | translate }}</li>
+      <li>{{ 'servicesPage.restructuringSer.feasibilityStudies.steps.financingAlternatives' | translate }}</li>
+      <li>{{ 'servicesPage.restructuringSer.feasibilityStudies.steps.financialIndicators' | translate }}</li>
+    </ul>
+
     </div>
   </div>
 </section>

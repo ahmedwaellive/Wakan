@@ -30,6 +30,22 @@
   text-align: left;
 }
 
+
+
+/* تخلي النقاط على اليمين في العربي */
+.rtl-list {
+  direction: rtl;
+  padding-right: 1.5rem;
+  list-style-position: inside;
+}
+
+.ltr-list {
+  direction: ltr;
+  padding-left: 1.5rem;
+  list-style-position: inside;
+}
+
+
 @media (max-width: 950px) {
   .custom-line::before,
   .custom-line::after {

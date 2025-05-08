@@ -10,4 +10,8 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class AboutusComponent {
  constructor(public translate: TranslateService){}
+
+ changeLanguage(lang: string) {
+  this.translate.setDefaultLang(lang);
+}
 }

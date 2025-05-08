@@ -32,13 +32,13 @@
     </div>
 
     <div
-      class="z-50 flex flex-col justify-center items-center text-white px-4 md:px-10 space-y-6 md:space-y-10"
+      class=" flex flex-col justify-center items-center text-white px-2 md:px-10 space-y-6 md:space-y-10"
     >
-      <div class="text-right py-10 px-4 md:px-6">
+      <div class="text-right py-10 px-2 md:px-6">
         <h3
           class="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl mr-4 md:mr-8 font-bold"
         >
-        {{'aboutUsPage.title' | translate }}
+          {{ "home.hero.title" | translate }}
         </h3>
         <div class="flex items-center justify-end">
           <div
@@ -52,28 +52,41 @@
       </div>
 
       <p
-        class="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-center text-black">
-        {{ 'home.hero.subtitle' | translate }}
+        class="text-lg sm:text-xl md:text-2xl lg:text-2xl leading-relaxed text-center text-black"
+      >
+        {{ "home.hero.subtitle" | translate }}
         <br />
-        {{ 'home.hero.newo' | translate }} <span class="text-white font-bold text-3xl">{{ 'home.hero.new' | translate }} </span> {{ 'home.hero.partnership' | translate }}
+        {{ "home.hero.newo" | translate }}
+        <span class="text-white font-bold text-2xl"
+          >{{ "home.hero.new" | translate }}
+        </span>
+        {{ "home.hero.partnership" | translate }}
       </p>
-      <div class="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40">
+
+      <div class="w-28 h-28 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40">
         <img class="w-full" src="/images/lo.png" alt="" />
       </div>
 
       <p
-        class="text-center text-[1.50rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold"
+        class="text-center text-[1.3rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold"
       >
-      {{'aboutUsPage.vision.title' | translate }} <span class="text-black">2030</span> {{'aboutUsPage.vision.subtitle' | translate }}
+        {{ "home.vision.title" | translate }}
+        <span class="text-black">2030</span>
+        {{ "home.vision.subtitle" | translate }}
       </p>
 
-      <div class="w-24 h-24 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-white rounded-full flex items-center justify-center overflow-hidden">
-        <img class="w-3/4 h-3/4 object-contain" src="/images/Saudi_Vision_2030_logo.svg.png" alt="Logo" />
+      <div
+        class="w-[6.5rem] h-[6.5rem] sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-white rounded-full flex items-center justify-center overflow-hidden"
+      >
+        <img
+          class="w-3/4 h-3/4 object-contain"
+          src="/images/Saudi_Vision_2030_logo.svg.png"
+          alt="Logo"
+        />
       </div>
     </div>
   </div>
 </section>
-
 
 <section class="py-10" [ngClass]="{'arabic': translate.currentLang === 'ar', 'english': translate.currentLang === 'en'}">
   <div class="overflow-hidden">
@@ -82,6 +95,7 @@
     >
       <div
         class="flex flex-col justify-center items-center text-center space-y-6 px-4 md:px-10"
+       [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'"
       >
         <img
           src="/images/Untitled-1.png٢٣.png"
