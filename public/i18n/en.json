@@ -34,7 +34,8 @@
     "sister_companies": {
       "title": "SISTER COMPANIES  ",
       "instruction": "CLICK ON THE LOGO TO DOWNLOAD THE SISTER COMPANY PROFILE",
-      "button": "Download Profile"
+      "button": "Download Profile",
+      "button2": " Visit Website "
     }
   },
   "strategyPage": {
