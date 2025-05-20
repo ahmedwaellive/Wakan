@@ -30,6 +30,7 @@ export class MyTrnslateService {
     this.currentLangSubject.next(lang);
     if (isPlatformBrowser(this.id)) {
       localStorage.setItem('lang', lang);
+      
     }
   }
 
