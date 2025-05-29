@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <div class="p-4">
+    <div  class="p-4">
       <div class="flex flex-col items-center gap-4 mb-10">
         <h3 class="text-white text-2xl font-bold">
           {{ "footer.contact" | translate }}
@@ -49,49 +49,62 @@
         ></i>
       </div>
 
-      <div class="space-y-4">
-        <div>
+      <form (ngSubmit)="sendEmail()" #contactForm="ngForm"  class="space-y-4">
+
           <input
+            [(ngModel)]="form.name"
+            name="name"
+            required
             [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'"
             type="text"
             placeholder="{{ 'form.name' | translate }}"
             class="w-full text-white bg-[#a0947c]/80 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           />
-        </div>
 
-        <div>
+
+
           <input
+            [(ngModel)]="form.email"
+            name="email"
+            required
             [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'"
             type="email"
             placeholder="{{ 'form.email' | translate }}"
             class="w-full text-white bg-[#a0947c]/80 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           />
-        </div>
 
-        <div>
+
+
           <input
+            [(ngModel)]="form.phone"
+            name="phone"
+            required
             [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'"
             type="tel"
             placeholder=" {{ 'form.phone' | translate }}"
             class="w-full text-white bg-[#a0947c]/80 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           />
-        </div>
 
-        <div>
+
+
           <textarea
+            [(ngModel)]="form.message"
+            name="message"
             [attr.dir]="translate.currentLang === 'ar' ? 'rtl' : 'ltr'"
             rows="4"
             placeholder=" {{ 'form.message' | translate }}"
             class="w-full text-white bg-[#a0947c]/80 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           ></textarea>
-        </div>
+
 
         <button
+          type="submit"
+          [disabled]="!contactForm.form.valid"
           class="w-full bg-black text-white p-3 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:bg-gray-800 transition-all duration-300 ease-in-out"
         >
           {{ "form.send" | translate }}
         </button>
-      </div>
+      </form>
     </div>
 
     <div

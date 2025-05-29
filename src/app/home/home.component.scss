@@ -8,6 +8,7 @@
   right: 100%;
   margin-right: 10px;
 }
+
 .custom-line::after {
   content: "";
   position: absolute;
@@ -20,24 +21,28 @@
 }
 
 @media (max-width: 950px) {
+
   .custom-line::before,
   .custom-line::after {
     width: 150px;
   }
 
 }
+
 @media (max-width: 640px) {
+
   .custom-line::before,
   .custom-line::after {
     width: 80px;
   }
-  .custom-circle{
+
+  .custom-circle {
     width: 70px;
     height: 70px;
   }
 
 
-  .icon-m{
+  .icon-m {
     justify-content: flex-start;
     align-items: self-start;
   }
@@ -45,6 +50,7 @@
 
 
 @media (max-width: 491px) {
+
   .custom-line::before,
   .custom-line::after {
     width: 0;

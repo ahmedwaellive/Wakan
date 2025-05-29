@@ -42,7 +42,7 @@
     "scroll_down": "Scroll Down",
     "title": "Our Strategy",
     "points": {
-      "innovation": "Innovation in delivering new and creative services, exploring opportunities and projects for more success.",
+      "innovation": "Innovating in the delivery of new and creative services, exploring opportunities and projects for greater success.",
       "team": "Working with a highly qualified and experienced technical team.",
       "exceed_expectations": "Providing services that exceed customer expectations."
     }
@@ -61,7 +61,7 @@
     "sister_companies": "About Wakan",
     "experience": "We have over a hundred years of experience",
     "aboutUsPage": {
-      "summary": "Wakan's team consists of consultants who have held prestigious positions in the private sector, And have distinguished consulting experience A select and distinguished base of clients with whom they have long-term relationships based on professionalism and mutual trust.Flexibility and broad horizons, To keep pace with local and international changes in the completion of work and communication with clientsProviding, The best service by seeking the needs of clients and providing the best financing, And investment solutions through our agreements with financing agencies (banks financing companies), That serve the client's need with easy terms and the lowest profit margin Wakan embraces a group of experts and consultants distinguished by their speci-alized and accumulated experiences that were, Acquired through their work in the largest international and local professional institutions"
+      "summary": "Wakan's team consists of consultants who have held prestigious positions in the private sector and have distinguished consulting experience.  A select base of clients have long-term relationships with them, based on professionalism and mutual trust.  Flexibility and broad horizons allow them to keep pace with local and international changes in completing work and communicating with clients.  They provide the best service by seeking to understand clients' needs and providing the best financing and investment solutions through agreements with financing agencies (banks and financing companies) that serve clients needs with easy terms and the lowest profit margins. Wakan embraces a group of experts and consultants distinguished by their specialized and accumulated experience acquired through their work in the largest international and local professional institutions."
     },
     "download_profile": "Download Company Profile"
   },
@@ -79,43 +79,43 @@
     "consulting": "FEASIBILITY STUDIES",
     "restructuringSer": {
       "title": "Restructuring and Organization",
-      "description": "We provide innovative solutions for financial and administrative restructuring through the following steps",
+      "description": "We provide innovative solutions for financial and administrative restructuring through the following steps:",
       "steps": {
-        "assessment": "Identifying the reasons that led or will lead to difficulties",
-        "restructuring_options": "Studying the available options for restructuring",
-        "documentation": "Preparing documents and studies",
-        "supervision": "Supervision, follow-up, and coordination",
-        "consultation": "Providing advice during the negotiation period",
-        "completion": "Completing the process professionally to achieve the desired goals",
-        "market_studies": "Supervising the preparation of market and technical studies",
-        "transaction_analysis": "Studying transactions from all aspects and analyzing strengths, weaknesses, opportunities, and challenges",
-        "risk_assessment": "Assessing the degree of risks surrounding the project and how to mitigate them",
-        "funding_options": "Setting available financing alternatives and expected returns for each option"
+        "assessment": "Identifying the reasons that led or will lead to difficulties.",
+        "restructuring_options": "Studying available options for restructuring.",
+        "documentation": "Preparing documents and studies.",
+        "supervision": "Supervising, following up, and coordinating.",
+        "consultation": "Providing advice during negotiations.",
+        "completion": "Completing the process professionally to achieve the desired goals.",
+        "market_studies": "Supervising the preparation of market and technical studies.",
+        "transaction_analysis": "Studying transactions comprehensively and analyzing strengths, weaknesses, opportunities, and challenges.",
+        "risk_assessment": "Assessing the degree of risk and mitigation strategies.",
+        "funding_options": "Setting out available financing alternatives and expected returns for each option."
       },
       "projectFinancing": {
         "title": "Project Financing",
-        "description":"Determine the appropriate financing needs Prepare the credit file. Determi-ne the available financing alternatives and the cost of financing for each source. Contact financial institutions, negotiate and review contracts and terminate the contract with them. Obtain financing with real estate or point of sale guarantee for companies and institutions. The value of the financing is deducted from the income of the company or institution.Obtain financing on rented properties such as (residential and commercial buildings, factories, towers, complexes, warehouses, stations and rented lands) and the value of the financing is deducted from the revenue and not from the customer's income. Carry out financing with a real estate guarant-ee, and this is done by mortgaging the property and financing with a real estate guarantee from the customer's income through banks and approved financial companies"
+        "description":"Determining Appropriate Financing Needs. Prepare the credit file. Determine available financing alternatives and their costs. Contact financial institutions, negotiate and review contracts, and terminate contracts as needed.  Obtain financing with real estate or point-of-sale guarantees for companies and institutions; the financing value is deducted from the company's or institution's income. Obtain financing on rented properties (residential and commercial buildings, factories, towers, complexes, warehouses, stations, and land); the  value financing is deducted from revenue, not the customer's income. Carry out financing with a real estate guarantee by mortgaging the property and financing from the customer's income through banks and approved financial companies."
       },
       "mergersAcquisitions": {
         "title": "Mergers and Acquisitions",
         "description": "We assist investors and decision-makers in prioritizing and meeting their needs in mergers and acquisitions through:",
         "steps": {
-          "strategy": "Developing and implementing a mergers and acquisitions strategy",
-          "documents": "Preparing documents and studies",
-          "supervision": "Supervision, follow-up, and coordination",
-          "legalAdvice": "Providing valuable legal advice",
-          "execution": "Completing the process professionally to achieve the desired results"
+          "strategy": "Developing and implementing a mergers and acquisitions strategy.",
+          "documents": "Preparing documents and studies.",
+          "supervision": "Supervising, following up, and coordinating.",
+          "legalAdvice": "Providing valuable legal advice.",
+          "execution": "Completing the process professionally to achieve the desired results."
         }
       },
       "feasibilityStudies": {
         "title": "Feasibility Studies",
         "description": "We ensure accuracy when preparing feasibility studies through:",
         "steps": {
-          "marketStudies": "Supervising the preparation of market and technical studies",
-          "projectAnalysis": "Analyzing the project from all aspects, including strengths, weaknesses, opportunities, and challenges",
-          "riskAssessment": "Assessing project risks and finding ways to mitigate them",
-          "financingAlternatives": "Providing financing alternatives and expected returns for each option",
-          "financialIndicators": "Presenting feasibility study results, financial indicators, and sensitivity analysis"
+          "marketStudies": "Supervising the preparation of market and technical studies.",
+          "projectAnalysis": "Analyzing the project from all aspects, including strengths, weaknesses, opportunities, and challenges.",
+          "riskAssessment": "Assessing project risks and finding ways to mitigate them.",
+          "financingAlternatives": "Providing financing alternatives and expected returns for each option.",
+          "financialIndicators": "Presenting feasibility study results, financial indicators, and sensitivity analysis."
         }
       }
     }
