@@ -35,10 +35,10 @@ export class FooterComponent {
     console.log('Sending email with params:', templateParams);
 
     emailjs.send(
-      'YOUR_SERVICE_ID',     // استبدل بـ service ID من EmailJS
-      'YOUR_TEMPLATE_ID',    // استبدل بـ template ID من EmailJS
+      'service_uunsks5',     // استبدل بـ service ID من EmailJS
+      'template_gtaexqg',    // استبدل بـ template ID من EmailJS
       templateParams,
-      'YOUR_PUBLIC_KEY'      // استبدل بـ public key من EmailJS
+      '0KJ6g90o7kMYzTScA'      // استبدل بـ public key من EmailJS
     ).then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       alert('تم إرسال الرسالة بنجاح ✅');
